@@ -1,0 +1,66 @@
+body {
+  font-family: 'raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.1;
+}
+
+h1, h2 {
+	font-family: 'raleway', sans-serif;
+	font-size: 45px;
+ 	font-weight: 500;
+ 	font-style:normal;
+ 	line-height: 1.42;
+}
+
+h1 {
+	text-align: center;
+}
+
+
+h2{
+ 	font-size: 23px;
+	text-align: center;
+ 
+}
+
+h3{
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.1;
+
+}
+
+footer{
+	color: #FFFFFF;
+	
+}
+
+p{
+	text-align: center;
+	font-family: 'raleway';
+	font-size: 16px; 
+	color: #716e6d;
+	
+}
+
+.index{
+	text-align: left;
+	max-height: 70px;
+	min-height: 40px;
+	
+}
+
+.index2{
+	text-align: right;
+	max-height: 70px;
+	min-height: 40px;
+}
+
+.index3{
+	text-align: left;
+}
+

@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+
+  padding: 1rem;
+  margin-top: 1rem;
+
+}
+
+
+
+footer{
+	background-color: #716e6d;
+	align-content: center;
+	
+}
+footer .footer_adres p {
+	text-align: left;
+	
+}
+
+.rij1{
+	padding-top: 40px;
+}
+
+/* navigatie 
+______________________*/
+nav#main-navigation{
+	display:block;
+	text-align: center;
+}
+nav#main-navigation ul{
+	list-style:none;
+	list-align:none;
+	margin: 0;
+	padding: 0;
+	padding-bottom:5px;
+	padding-top:5px;
+	text-align:center;
+	display:block;
+}
+#main-navigation>ul>li{
+	float:left;
+	width:25%;
+	position:relative;
+	margin-right:auto;
+	font-weight:lighter;
+	font-size: 20px;
+}
+#main-navigation ul li a{
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	font-family:'raleway';
+	font-size: 15px;
+	color:#716e6d;
+	text-align: center;
+}
+#main-navigation li.hasSubMenu ul {
+	display:none;
+	width:100%;
+	position:absolute;
+	top: 30px;
+	z-index: 999;
+}
+#main-navigation li.hasSubMenu:hover ul {
+	display:block;	
+}
+#main-navigation li.hasSubMenu li a {
+	display:block;
+	padding: 5px 10px;
+}
+
+
+#main-navigation .hasSubMenu .roze{
+	color:#d07baa;
+	font-family:'amatic SC';
+	font-size: 16px; 
+	
+	}
+.roze2{
+	color: #d07baa;
+	font-family: 'amatic SC';
+	font-size: 18px;
+	
+}
+
+
+/* content 
+----------------------- */
+.inleiding {
+	text-align: center;
+}
+.keywords{
+	list-style: none;
+	align-content: center;
+	margin: 0;
+	padding:0;
+	font-size: 15px;
+}
+
+
+
+.keywords__keyword{
+	display: block;
+	text-align: center;
+}
+
+.portfolio:hover{
+	border: 3.5px solid #d07baa;
+	margin-bottom: 10px;
+}
+
+/*--.portfolio2{
+	border: 3px solid #d07baa;
+	margin-bottom: 10px;
+} */
+
+.footer_tekst{
+	color: #FFFFFF;
+}
+
+.boeken{
+	text-decoration: none;
+	color: #d07baa;
+	align-content: center;
+	
+}
+.text_block {
+	min-height: 260px;
+}
+
+
+.text_block article {
+	position: absolute;
+	bottom: 0px;
+}
+.text_block article p {
+	text-align: justify;
+}
+
+
+/* forms 
+------------------- */
+
+
+.boeken_form{
+	dispaly: block;
+	text-align: center;
+	align-content: center;
+	color:#716e6d;
+}
+.boeken_button{
+	font-size:30px;
+}
+.boeken_form legend {
+	text-align: center;
+}
+
+.boeken_form legend p {
+	text-align: center;
+	width: 100%;
+}
+/* button 
+____________________*/
+.button {
+	border: none;
+	color:#d07baa;
+	background-color: white;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px; 
+	font-family: 'Amatic SC';
+	padding: 20px;
+	width:200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	align-content: center;
+}
+.button span{
+	cursor:pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.button span:after{
+	content: '>>';
+	position: absolute;
+	opacity: 0;
+	top:0;
+	right: -20px;
+	transition: 0.5s;
+}
+.button:hover span{
+	padding-right:25px;
+}
+.button:hover span:after{
+	opacity:1;
+	right: 0;
+}
+/* hover
+_____________________*/
+.container{
+	position:relative;
+}
+
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80%;
+  width: 80%;
+  opacity: 0;
+  transition: .5s;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text_overlay {
+  position: absolute;
+  top: 90%;
+  left: 60%;
+  -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+
+}
+
+/* icons
+______________________*/
+
+.fa{
+	padding-right: 5px;
+	padding-top: 10px;
+	float: right;
+	color: #FFFFFF;
+	
+	
+}
+
+/* styleguide
+----------------------- */
+.color{
+	border-bottom: 3px solid #d07baa;
+	width: 1140px;
+	padding-bottom: 5px;
+}
+
+.link{
+	border: 2px solid #d07baa;
+	width: 100px;
+	align-content: center;
+}
+
+
+.colours {
+	text-align: center;
+}
+ul.colours__list{
+	list-style-type: none;
+	text-align: center;
+	display: inline-block;
+}
+ul.colours__list li{
+	float: left;
+}
+.colours__colour {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 10px; 
+	margin-left: 10px; 
+	font-family:'raleway';
+	border: 2px solid #d07baa;
+	width: 100px;
+	height: 100px;
+}
+.colours__colour--a {
+	background-color: #FFFFFF;
+}
+
+.colours__colour--b {
+	background-color: #d07baa;
+}
+
+.colours__colour--c {
+	background-color: #716e6d;
+}
+
+.colours__colour--d {
+	background-color: #000000;
+}
+
+
+
+
